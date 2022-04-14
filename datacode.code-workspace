@@ -1,0 +1,171 @@
+{
+  "folders": [
+    {
+      "name": "root-config",
+      "path": "datacode-root-config"
+    },
+    {
+      "name": "styleguide",
+      "path": "datacode-styleguide"
+    },
+    {
+      "name": "api",
+      "path": "datacode-api"
+    },
+    {
+      "name": "navbar",
+      "path": "datacode-navbar"
+    },
+    {
+      "name": "home",
+      "path": "datacode-home"
+    },
+    {
+      "name": "technology",
+      "path": "datacode-technology"
+    },
+    {
+      "name": "education",
+      "path": "datacode-education"
+    },
+    {
+      "name": "footer",
+      "path": "datacode-footer"
+    },
+    {
+      "name": "shared-dependencies",
+      "path": "datacode-shared-dependencies"
+    },
+  ],
+  "settings": {
+    "eslint.workingDirectories": [{
+      "mode": "auto"
+    }],
+    // "eslint.options": {
+    //     "configFile": "path/to/babel.config.json"
+    // }
+    "restoreTerminals.terminals": [
+      {
+        "splitTerminals": [
+          {
+            "name": "datacode-microfrontend",
+            "commands": [
+              "cd .."
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "root-config",
+            "commands": [
+              "cd ..",
+              "cd datacode-root-config",
+              "npm start"
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "styleguide",
+            "commands": [
+              "cd ..",
+              "cd datacode-styleguide",
+              "npm start"
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "api",
+            "commands": [
+              "cd ..",
+              "cd datacode-api",
+              "npm start"
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "navbar",
+            "commands": [
+              "cd ..",
+              "cd datacode-navbar",
+              "npm start"
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "home",
+            "commands": [
+              "cd ..",
+              "cd datacode-home",
+              "npm start"
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "technology",
+            "commands": [
+              "cd ..",
+              "cd datacode-technology",
+              "npm start"
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "education",
+            "commands": [
+              "cd ..",
+              "cd datacode-education",
+              "npm start"
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "footer",
+            "commands": [
+              "cd ..",
+              "cd datacode-footer",
+              "npm start"
+            ]
+          }
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "shared-dependencies",
+            "commands": [
+              "cd ..",
+              "cd datacode-shared-dependencies"
+            ]
+          }
+        ]
+      },
+    ]
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  }
+}

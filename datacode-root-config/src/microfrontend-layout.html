@@ -1,0 +1,45 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+  <nav class="topnav">
+    <application name="@datacode/navbar" loader="navbar" error="navbar" props="navbar"></application>
+  </nav>
+  <main class="mt-16 main-content">
+    <route path="/" exact>
+      <!-- <h1 class="py-5 text-2xl text-center">Welcome page</h1> -->
+      <redirect from="/" to="home"></redirect>
+    </route>
+    <route path="home">
+      <application name="@datacode/home" error="home"></application>
+    </route>
+    <route path="technology">
+      <application name="@datacode/technology" loader="technology" error="technology"></application>
+    </route>
+    <route path="education">
+      <application name="@datacode/education" error="education"></application>
+    </route>
+    <route default>
+      <h1 class="flex flex-row justify-center p-16">
+        <p class="max-w-md font-bold">Page Not Found</p>
+      </h1>
+    </route>
+  </main>
+  <footer class="footer">
+    <application name="@datacode/footer" loader="footer" error="footer"></application>
+  </footer>
+</single-spa-router>

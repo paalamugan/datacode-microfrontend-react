@@ -1,0 +1,34 @@
+:root {
+  --color-primary: #011627;
+  --color-secondary: #8b8c8a;
+  --color-danger: #e71d36;
+  --color-warning: #ff9f1c;
+  --color-info: #2ec4b6;
+  --color-background: #182b3a;
+  --color-white: #fdfffc;
+  --color-black: #171817;
+  --color-overlay: rgba(253, 255, 252, 0.8);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+nav.topnav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 100;
+}
+
+footer.footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  z-index: 100;
+}

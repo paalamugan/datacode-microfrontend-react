@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.3/lib/system/single-spa.min.js",
+    "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs@6.5.5/system/rxjs.min.js",
+    "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs@6.5.5/system/rxjs-operators.min.js",
+    "@datacode/root-config": "//localhost:9000/datacode-root-config.js",
+    "@datacode/styleguide": "//localhost:9001/datacode-styleguide.js",
+    "@datacode/api": "//localhost:9002/datacode-api.js",
+    "@datacode/navbar": "//localhost:9003/datacode-navbar.js",
+    "@datacode/home": "//localhost:9004/datacode-home.js",
+    "@datacode/technology": "//localhost:9005/datacode-technology.js",
+    "@datacode/education": "//localhost:9006/datacode-education.js",
+    "@datacode/footer": "//localhost:9007/datacode-footer.js"
+  }
+}
