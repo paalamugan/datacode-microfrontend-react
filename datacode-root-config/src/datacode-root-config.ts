@@ -9,8 +9,10 @@ import microfrontendLayout from "./microfrontend-layout.html";
 const routes = constructRoutes(microfrontendLayout, {
   loaders: {
     navbar: "<h1 class='flex items-center justify-start h-16 px-6 text-white bg-primary'>Loading navbar</h1>",
-    footer: "<h1 class='flex items-center justify-center h-16 px-6 text-white bg-primary'>Loading footer</h1>",
+    home: "<h1 class='flex items-center justify-center h-16 px-6'>Loading home</h1>",
     technology: "<h1 class='flex items-center justify-center h-16 px-6'>Loading technology</h1>",
+    education: "<h1 class='flex items-center justify-center h-16 px-6'>Loading education</h1>",
+    footer: "<h1 class='flex items-center justify-center h-16 px-6 text-white bg-primary'>Loading footer</h1>",
   },
   props: {
     navbar: {

@@ -48,7 +48,7 @@
       {
         "splitTerminals": [
           {
-            "name": "datacode-microfrontend",
+            "name": "root",
             "commands": [
               "cd .."
             ]
